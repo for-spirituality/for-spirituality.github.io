@@ -1,0 +1,40 @@
+.btn-primary {
+    color: #fff;
+    background-color: #2196f3;
+    border-color: #2196f3;
+}
+.text-p-color{
+    color: #2196f3;
+}
+.p-color{
+    background-color: #2196f3;
+}
+.text-s-color{
+    color: #f3e5f5;
+}
+.s-color{
+    background-color: #f3e5f5;
+}
+.text-red500-dark{
+    color: #ba000d;
+}
+.text-blue700-dark{
+    color: #004ba0;
+}
+.title-font-family{
+    font-family: 'Barlow Condensed'!important;
+}
+
+.hero-title{
+    font-family: 'Barlow Condensed' !important;
+    
+    font-size: calc(3rem + 2.1vw);
+}
+
+.prog-title{
+    font-size: calc(2rem + 2.1vw);
+}
+
+.prog-pre-title{
+    font-size: calc((2rem + 2.1vw)*0.35);
+}

@@ -1,0 +1,25 @@
+*{
+    font-family: 'Barlow', sans-serif;
+}
+
+.bg-light{
+    background-color: white;
+}
+
+.nav-item{
+    padding: 0 30px 0 30px;
+}
+
+.nav-item .nav-link{
+    font-weight: 600;
+    color: #8d96a2 !important;
+}
+
+.nav-item .nav-link:hover {
+    color: black !important;
+}
+
+.nav-item .active{
+    font-weight: bolder;
+    color: black !important;
+}
