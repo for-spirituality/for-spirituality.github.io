@@ -48,3 +48,7 @@
 .section-title{
     font-size: calc((1.6rem+2.1vw)/1.1);
 }
+
+#loader{
+    display: none;
+}
