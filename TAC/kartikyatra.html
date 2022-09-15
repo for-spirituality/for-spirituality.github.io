@@ -20,6 +20,43 @@
 
 <body>
 
+    <!-- Navbar Started -->
+    <nav class="navbar navbar-expand-xl navbar-light bg-white" aria-label="Sixth navbar example">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./assets/images/logo-big.png" style="height: 60px;" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample06"
+                aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample06">
+                <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html#upcoming-programs">Upcoming Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html#ongoing-programs">Ongoing Programs</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown06" data-bs-toggle="dropdown"
+                            aria-expanded="false">About</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown06">
+                            <li><a class="dropdown-item" href="./about-us.html">About Us</a></li>
+                            <li><a class="dropdown-item" href="./srila-prabhupada.html">Srila Prabhupada</a></li>
+                            <li><a class="dropdown-item" href="./iskcon-juhu.html">ISKCON</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact-us.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar Ended -->
     <!-- Content Started -->
     <div class="section" style="background:   linear-gradient(90deg, rgba(255,255,255,0.9) 0%, rgba(242,244,249,0.9) 58%, rgba(255,255,203,0.9) 100%), url(./assets/images/krishna-and-cowherd-boyfriends.jpg);  background-repeat: no-repeat; background-size: cover;">
         <div class="container col-xxl-9 px-4 py-5">
@@ -183,6 +220,17 @@
         </div>
     </div>
     <!-- Content Ended -->
+
+    <!-- Footer Started -->
+    <div data-include="footer.html"></div>
+    
+    <!-- Footer Ended -->
+
+
+    <script src="./assets/bs-js/bootstrap.bundle.min.js"></script>
+    <script>
+        window.onload=function(){function a(a,b){var c=/^(?:file):/,d=new XMLHttpRequest,e=0;d.onreadystatechange=function(){4==d.readyState&&(e=d.status),c.test(location.href)&&d.responseText&&(e=200),4==d.readyState&&200==e&&(a.outerHTML=d.responseText)};try{d.open("GET",b,!0),d.send()}catch(f){}}var b,c=document.getElementsByTagName("*");for(b in c)c[b].hasAttribute&&c[b].hasAttribute("data-include")&&a(c[b],c[b].getAttribute("data-include"))};
+    </script>
 
     <script src="./assets/bs-js/bootstrap.bundle.min.js"></script>
 </body>
