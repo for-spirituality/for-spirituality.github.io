@@ -1,21 +1,3 @@
-body {
-    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
 
 a {
     -webkit-transition: .3s all ease;
@@ -56,13 +38,15 @@ a:hover {
     display: block;
 }
 
-.footer-20192 .links li a {
+.footer-20192 .links a {
     color: #9194a3;
 }
 
-.footer-20192 .links li a:hover {
+.footer-20192 .links a:hover {
     color: #fff;
 }
+
+
 
 .footer-20192 .social li {
     display: inline-block;
@@ -90,7 +74,10 @@ a:hover {
 .footer-20192 .social li a:hover{
     background-color: #c5331c;
 }
-
+.wp:hover {
+    background-color: #25D366;
+    color: #141d2a;
+}
 
 .footer-20192 .footer-logo {
     color: #fff;
