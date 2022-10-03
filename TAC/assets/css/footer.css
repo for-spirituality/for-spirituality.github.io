@@ -16,9 +16,11 @@ a:hover {
 
 .footer-20192 {
     position: relative;
-    color: #fff;
-    padding: 7rem 0;
-    background-color: #141d2a;
+    background-color: #231C1A;
+}
+
+.footer-20192-for-text{
+    color: white;
 }
 
 .footer-20192 .container {
@@ -39,7 +41,7 @@ a:hover {
 }
 
 .footer-20192 .links a {
-    color: #9194a3;
+    color: white;
 }
 
 .footer-20192 .links a:hover {
